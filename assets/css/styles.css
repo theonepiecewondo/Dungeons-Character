@@ -1,0 +1,23 @@
+body { background: #ffffff; color: #000000; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+
+.o-cover { object-fit: cover !important; }
+
+.p-relative { position: relative; }
+
+.p-fill { top: 0px; bottom: 0px; left: 0px; right: 0px; }
+
+.p-absolute { position: absolute; }
+
+.p-center { top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
+.header h1 { font-size: 65px; }
+
+.wow { visibility: hidden; }
+
+.main-page { background-image: url("../img/far-realm1.png"); min-height: 200px; background-size: cover; background-attachment: fixed; background-position: center; background-repeat: no-repeat; }
+
+.new-character { background-image: url("../img/astralsea.png"); min-height: 200px; background-size: cover; background-attachment: fixed; background-position: center; background-repeat: no-repeat; }
+
+.stats { background-image: url("../img/astral.png"); min-height: 200px; background-size: cover; background-attachment: fixed; background-position: center; background-repeat: no-repeat; }
+
+/*# sourceMappingURL=styles.css.map */

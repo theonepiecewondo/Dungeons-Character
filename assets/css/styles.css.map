@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";\n\n.o-cover{\n    object-fit: cover !important;\n}\n.p-relative{\n    position: relative;\n}\n.p-fill{\n    top: 0px;\n    bottom: 0px;\n    left: 0px;\n    right: 0px;\n}\n.p-absolute{\n    position: absolute;\n}\n.p-center{\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n}\n\n.header h1{\n    font-size: 65px;\n}\n.wow{\n    visibility: hidden;\n}\n.main-page{\n    background-image: url(\"../img/far-realm1.png\");\n    min-height: 200px;\n    background-size: cover;\n    background-attachment: fixed;\n    background-position: center;\n    background-repeat: no-repeat;\n}\n.new-character{\n    background-image: url(\"../img/astralsea.png\");\n    min-height: 200px;\n    background-size: cover;\n    background-attachment: fixed;\n    background-position: center;\n    background-repeat: no-repeat;\n}\n.stats{\n    background-image: url(\"../img/astral.png\");\n    min-height: 200px;\n    background-size: cover;\n    background-attachment: fixed;\n    background-position: center;\n    background-repeat: no-repeat;\n}",
+		"$backgroundColor: #ffffff;\n$bodyColor: #000000;\n$bodyFont: -apple-system,BlinkMacSystemFont,\"Segoe UI\",Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";\n\nbody {\n  background: $backgroundColor;\n  color: $bodyColor;\n  font-family: $bodyFont;\n}\n"
+	],
+	"names": [],
+	"mappings": "ACIA,AAAA,IAAI,CAAC,EACH,UAAU,EALM,OAAO,EAMvB,KAAK,EALK,OAAO,EAMjB,WAAW,EALF,aAAa,EAAC,kBAAkB,EAAC,UAAU,EAAC,SAAS,EAAC,KAAK,EAAC,UAAU,EAAC,mBAAmB,EAAC,gBAAgB,EAAC,iBAAiB,GAMvI;;ADND,AAAA,QAAQ,CAAA,EACJ,UAAU,EAAE,gBAAgB,GAC/B;;AACD,AAAA,WAAW,CAAA,EACP,QAAQ,EAAE,QAAQ,GACrB;;AACD,AAAA,OAAO,CAAA,EACH,GAAG,EAAE,GAAG,EACR,MAAM,EAAE,GAAG,EACX,IAAI,EAAE,GAAG,EACT,KAAK,EAAE,GAAG,GACb;;AACD,AAAA,WAAW,CAAA,EACP,QAAQ,EAAE,QAAQ,GACrB;;AACD,AAAA,SAAS,CAAA,EACL,GAAG,EAAE,GAAG,EACR,IAAI,EAAE,GAAG,EACT,SAAS,EAAE,qBAAqB,GACnC;;AAED,AAAA,OAAO,CAAC,EAAE,CAAA,EACN,SAAS,EAAE,IAAI,GAClB;;AACD,AAAA,IAAI,CAAA,EACA,UAAU,EAAE,MAAM,GACrB;;AACD,AAAA,UAAU,CAAA,EACN,gBAAgB,EAAE,4BAA4B,EAC9C,UAAU,EAAE,KAAK,EACjB,eAAe,EAAE,KAAK,EACtB,qBAAqB,EAAE,KAAK,EAC5B,mBAAmB,EAAE,MAAM,EAC3B,iBAAiB,EAAE,SAAS,GAC/B;;AACD,AAAA,cAAc,CAAA,EACV,gBAAgB,EAAE,2BAA2B,EAC7C,UAAU,EAAE,KAAK,EACjB,eAAe,EAAE,KAAK,EACtB,qBAAqB,EAAE,KAAK,EAC5B,mBAAmB,EAAE,MAAM,EAC3B,iBAAiB,EAAE,SAAS,GAC/B;;AACD,AAAA,MAAM,CAAA,EACF,gBAAgB,EAAE,wBAAwB,EAC1C,UAAU,EAAE,KAAK,EACjB,eAAe,EAAE,KAAK,EACtB,qBAAqB,EAAE,KAAK,EAC5B,mBAAmB,EAAE,MAAM,EAC3B,iBAAiB,EAAE,SAAS,GAC/B"
+}
